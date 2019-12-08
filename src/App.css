@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  background-color: #d2e9f2;
+  height: 100%;
 }
 
 .App-logo {
@@ -26,6 +28,22 @@
 
 .App-link {
   color: #61dafb;
+}
+
+.MuiTableRow-root.MuiTableRow-hover:hover{
+  background-color: unset !important;
+  -moz-box-shadow: 2px 4px 9px 0 rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: 2px 4px 9px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 2px 4px 9px 0 rgba(0, 0, 0, 0.2);
+}
+
+svg.MuiSvgIcon-root.MuiTableSortLabel-icon.MuiTableSortLabel-iconDirectionDesc,
+svg.MuiSvgIcon-root.MuiTableSortLabel-icon.MuiTableSortLabel-iconDirectionAsc{
+  font-size: 12px !important;
+}
+
+.MuiTableSortLabel-root.MuiTableSortLabel-active.MuiTableSortLabel-root.MuiTableSortLabel-active .MuiTableSortLabel-icon{
+  font-size: 12px !important;
 }
 
 @keyframes App-logo-spin {
